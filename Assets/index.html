@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="../MDB-Free4/MDB-Free/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="../MDB-Free4/MDB-Free/css/mdb.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Encode+Sans+Condensed:300,400|Josefin+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bubbler+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Encode+Sans+Expanded" rel="stylesheet">
+	<title>R.P.S</title>
+</head>
+<body>
+<header>
+	<nav class="navbar navbar-expand-lg navbar-dark black" style="z-index: 2">
+    <a class="navbar-brand" href="#"><img src="img/dices.png"><i class="mt-3 ml-2" style="">XoS</i></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+        aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+            </li>
+            <!-- <button type="button" class="btn btn-rounded rounded-0 float-right pr-3 pl-1" id = "profileButton">
+	            <div class="rounded-circle">
+	            	<img src="img/profile pic.png" alt="Contact Person" class="mr-2">Jane Doe
+	            </div>
+	        </button> -->
+	        <small class="float-right mt-2 mr-3 hidd" id="noLogin">Not logged in</small>
+    </div>
+</header>
+<main>
+<div class="view hm-black-strong">
+    <img src="img/home-banner.jpg" class="img-fluid" alt="Image unfortunately not loaded, probably connection issues, Sorry">
+    <div class="mask flex-center" style="margin-top: -40px; ">
+        <h2 class="white-text" style="">XoS</h2>
+        <p><button type="button" class="btn btn-primary text-center mt-5" style="margin-top: 150px;position: absolute; margin-left: -94px" data-toggle="modal" data-target="#register">Let's Play</button></p>
+    </div>
+
+</div>
+
+
+<!-- Modal -->
+<div class="modal modal-md fade" id="register" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <!--Content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title w-100" id="myModalLabel">Getting Started</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                
+				<ul class="nav nav-tabs nav-justified" role="tablist">
+					    <li class="nav-item">
+					        <a class="nav-link active" data-toggle="tab" href="#panel11" role="tab">Register</a>
+					    </li>
+					    <li class="nav-item">
+					        <a class="nav-link" data-toggle="tab" href="#login" role="tab" disabled="true">Login</a>
+					    </li>
+					    <li class="nav-item">
+					        <a class="nav-link" data-toggle="tab" href="#panel12" role="tab">Link</a>
+					    </li>
+					    <li class="nav-item">
+					        <a class="nav-link" data-toggle="tab" href="#panel13" role="tab">Help</a>
+					    </li>
+					</ul>
+					<div class="tab-content">
+					    <div class="tab-pane fade in show active" id="panel11" role="tabpanel">
+					        <br>
+							<form>
+							    <p class="h5 text-center mb-4">Sign up</p>
+
+							    <div class="md-form">
+							        <i class="fa fa-user prefix grey-text"></i>
+							        <input type="text" id="orangeForm-name" class="form-control">
+							        <label for="orangeForm-name">Your name</label>
+							    </div>
+							    <div class="md-form">
+							        <i class="fa fa-envelope prefix grey-text"></i>
+							        <input type="text" id="orangeForm-email" class="form-control">
+							        <label for="orangeForm-email">Your email</label>
+							    </div>
+
+							    <div class="md-form">
+							        <i class="fa fa-lock prefix grey-text"></i>
+							        <input type="password" id="orangeForm-pass" class="form-control">
+							        <label for="orangeForm-pass">Your password</label>
+							    </div>
+							    <div class="md-form">
+							        <i class="fa fa-lock prefix grey-text"></i>
+							        <input type="password" id="orangeForm-password" class="form-control">
+							        <label for="orangeForm-password">Repeat your password</label>
+							    </div>
+
+							    <div class="text-center">
+							        <button class="btn" id="registerSubmit">Sign up <i class="fa fa-sign-in ml-1"></i></button>
+							    </div>
+							    <small class="text-primary">If it's logging in you need, go to the next tab >>></small>
+							    
+
+							</form>
+					    </div>
+					    <div class="tab-pane fade" id="panel12" role="tabpanel">
+					        <br>
+
+					        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil odit magnam minima, soluta doloribus
+					            reiciendis molestiae placeat unde eos molestias. Quisquam aperiam, pariatur. Tempora, placeat ratione
+					            porro voluptate odit minima.</p>
+					        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil odit magnam minima, soluta doloribus
+					            reiciendis molestiae placeat unde eos molestias. Quisquam aperiam, pariatur. Tempora, placeat ratione
+					            porro voluptate odit minima.</p>
+
+					    </div>
+					    <div class="tab-pane fade" id="panel13" role="tabpanel">
+					        <br>
+
+					        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil odit magnam minima, soluta doloribus
+					            reiciendis molestiae placeat unde eos molestias. Quisquam aperiam, pariatur. Tempora, placeat ratione
+					            porro voluptate odit minima.</p>
+
+					    </div>
+					    <!--/.Panel 3-->
+
+					    <!--Panel 4-->
+					    <div class="tab-pane fade" id="panel14" role="tabpanel">
+					        <br>
+
+					        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil odit magnam minima, soluta doloribus
+					            reiciendis molestiae placeat unde eos molestias. Quisquam aperiam, pariatur. Tempora, placeat ratione
+					            porro voluptate odit minima.</p>
+					        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil odit magnam minima, soluta doloribus
+					            reiciendis molestiae placeat unde eos molestias. Quisquam aperiam, pariatur. Tempora, placeat ratione
+					            porro voluptate odit minima.</p>
+
+					    </div>
+					    <div class="tab-pane fade" id="login" role="tabpanel">
+					        <br>
+
+					        <form>
+							    <p class="h5 text-center mb-4">Sign in</p>
+
+							    <div class="md-form">
+							        <i class="fa fa-envelope prefix grey-text"></i>
+							        <input type="text" id="defaultForm-email" class="form-control">
+							        <label for="defaultForm-email">Your email</label>
+							    </div>
+
+							    <div class="md-form">
+							        <i class="fa fa-lock prefix grey-text"></i>
+							        <input type="password" id="defaultForm-pass" class="form-control">
+							        <label for="defaultForm-pass">Your password</label>
+							    </div>
+
+							    <div class="text-center">
+							        <button class="btn" id="registerSubmit">Login </button>
+							    </div>
+							    <!-- <a href="#panel11" data-toggle="tab" role="tab"><small>Go back to login</small></a> -->
+							</form>
+
+					    </div>
+            </div>
+
+            
+        </div>
+    </div>
+</div>
+</main>
+
+
+<script type="text/javascript" src="../MDB-Free4/MDB-Free/js/jquery-3.1.1.min.js"></script>
+<script type="text/javascript" src="../MDB-Free4/MDB-Free/js/popper.min.js"></script>
+<script type="text/javascript" src="../MDB-Free4/MDB-Free/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+<script type="text/javascript" src="../MDB-Free4/MDB-Free/js/mdb.min.js"></script>
+</body>
+</html>
